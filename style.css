@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 15px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .6s;
+}
+
+header.rolagem{
+    background-color: #f1f1f1;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: black;
+}
+
+header img{
+    width: 100px;
+    color: black;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+li:hover{
+    padding: 10px;
+    background-color: #D9D7D7;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+
+header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #0D0D0D;
+    border-radius: 15px;
+    color: #D9D7D7;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+.banner{
+    height: 100vh;
+    background-image: url(imagens/INTRO\ CCM\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container_normal {
+    height: 540px;
+    background-color: #D9D7D7;
+    padding: 30px;
+    
+}
+
+.container_normal{
+    height: 600px;
+    background-color: #D9D7D7;
+    padding: 30px;
+    
+}
+
+.divisao{
+    margin-top:100px;
+}
+h2{
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+.missao {
+    padding: 150px 0 0 0;
+    align-items: center;
+}
+
+.tex-missao{
+    padding: 70px 0 20px 25px;
+}
+
+.container-missao img{
+   border-radius: 15px;
+   margin: 0 0 0 100px;
+   width: 500px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-mi{
+    display: flex
+}
+
+
+/* Cards */
+
+.cards{
+    justify-content: center;
+    display: flex;
+}
+
+h3{
+    padding: 10px;
+}
+
+.card{
+    margin: 15px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card p{
+    width: 300px;
+    margin: 0 25px 0 25px;
+}
+
+.card>img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-vejaMais{
+    text-decoration: none;
+    color: #fff;
+    background-color: #333333;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 15px;
+}
